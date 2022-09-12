@@ -1,0 +1,41 @@
+li {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  height: 72px;
+  background-color: var(--gray-400);
+  margin-bottom: 12px;
+  border-radius: 5px;
+
+}
+
+li > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkboxRound {
+  width: 25px;
+  height: 25px;
+  margin: 24px 0 0 16px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.taskContent {
+  word-wrap: break-word;
+  color: var(--gray-100);
+  font-size: 1.5rem;
+  margin: 7px 0;
+  max-width: 600px;
+}
+
+.trashButton {
+  width: 25px;
+  height: 25px;
+  margin: 24px 0 0 16px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

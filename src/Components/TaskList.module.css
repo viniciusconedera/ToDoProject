@@ -1,0 +1,22 @@
+.taskListWrapper {
+  margin-top: 64px;
+  width: 736px;
+}
+
+.listHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.listHeader > div:first-child {
+  color: var(--blue);
+}
+
+.listHeader > div:last-child {
+  color: var(--purpleDark);
+}
+
+ul {
+  list-style: none;
+}

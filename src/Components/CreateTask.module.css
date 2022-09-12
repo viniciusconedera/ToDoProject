@@ -1,0 +1,38 @@
+form {
+  margin-top: -25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  width: 736px;
+}
+
+form > input {  
+  width: 638px;
+  height: 54px;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 7px;
+  font-size: 2rem;
+  color: var(--gray-300);
+}
+
+form > input:focus {  
+  outline: 1px solid var(--gray-400);
+}
+
+form > button {
+  width: 90px;
+  height: 52px;
+  background-color: var(--blueDark);
+  border: 1px solid var(--gray-700);
+  border-radius: 7px;
+  color: var(--gray-100);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+form > button:hover {
+  background-color: var(--blue);
+  transition: background-color 0.2s;
+}
